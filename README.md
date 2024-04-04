@@ -1,5 +1,5 @@
-# COVID-19-Mutation-Matrix
-## Generates a kamda_kawai visualization of COVID-19 mutation frequencies. 
+# Mutation Matrix Visualization
+## MST visualization of gene mutation frequencies using the kamda_kawai layout. 
 
 ![MTX](https://github.com/Gfatouras/COVID-19-Mutation-Matrix/assets/165408353/931fd80b-ba4b-4f3a-8f96-250a5c3c7cf7)
 
@@ -12,3 +12,13 @@ Input Example:
 
 ![image](https://github.com/Gfatouras/COVID-19-Mutation-Matrix/assets/165408353/9775a171-fa34-430a-9d3f-00ba7503600d)
 >mutations.txt
+
+## REQUIREMENTS:
+
+networkx==2.5
+
+numpy
+
+scipy
+
+matplotlib
