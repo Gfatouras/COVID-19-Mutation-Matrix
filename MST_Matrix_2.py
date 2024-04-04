@@ -3,9 +3,7 @@ from scipy.sparse.csgraph import minimum_spanning_tree
 from scipy.sparse import csr_matrix, save_npz
 import networkx as nx
 import matplotlib.pyplot as plt
-import matplotlib
 
-matplotlib.use("TkAgg") 
 
 print("Loading data")
 mut = np.loadtxt("matrix.txt",dtype=str) # Whole mutation list
