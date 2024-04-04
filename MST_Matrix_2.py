@@ -3,11 +3,18 @@ from scipy.sparse.csgraph import minimum_spanning_tree
 from scipy.sparse import csr_matrix, save_npz
 import networkx as nx
 import matplotlib.pyplot as plt
+import zipfile
 
 
 print("Loading data")
+
+with zipfile.ZipFile("matrix.zip", 'r') as zip_ref:
+    zip_ref.extractall("")
+
+
 mut = np.loadtxt("matrix.txt",dtype=str) # Whole mutation list
 mutations = mut[:,2].astype("int") # Isolate mutation numbers
+
 mutMtx = np.reshape(mutations, (1000,1000)) # Make list into 2D matrix
 mst_matrix = minimum_spanning_tree(mutMtx) # Calculate MST
 save_npz("MST.mtx",mst_matrix)
