@@ -44,7 +44,7 @@ plt.xlim(-1.5,1.5) # pos is usually +-2 so limit the display
 plt.ylim(-1.5,1.5)
 
 plt.title('MST ')
-plt.savefig("images/MST.png")
+plt.savefig("MST.png")
 print("Finished plot")
 plt.show()
 plt.close()
