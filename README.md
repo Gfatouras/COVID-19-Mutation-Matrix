@@ -1,5 +1,5 @@
 # Mutation Matrix Visualization
-## Creates a MST visualization using gene mutation frequencies. 
+## MST visualization using gene mutation frequencies. 
 
 ![MTX](https://github.com/Gfatouras/COVID-19-Mutation-Matrix/assets/165408353/931fd80b-ba4b-4f3a-8f96-250a5c3c7cf7)
 
